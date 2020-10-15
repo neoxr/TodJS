@@ -1,0 +1,53 @@
+*:focus {
+	outline:0;
+}
+body { 
+	background-image:url(/assets/images/pattern.png);background-attachment:fixed;
+	background-color: #f2f2f7; 
+	text-align: center;
+	display:flex;justify-content:center;align-items:center;height:100vh;
+}
+a {
+	color: #777;
+}
+.layer{margin:50px auto;width:450px}
+button {
+	border:0;
+	padding:9px 7px;
+	border-radius: 3px;
+	font-size: 14px;
+	margin:7px 0 0 2px;
+	color: #fff;
+	width: 70px;
+	font-family: Aron;
+}
+h1 {
+	font-family: Aron;
+	margin-bottom:10px;
+	font-size: 40px;
+}
+h2 {
+	font-family: Aron;
+	margin-bottom:20px;
+	font-size: 15px;
+	font-weight: normal;
+	color: #333;
+}
+.warning {
+	background: var(--warning);
+}
+.success {
+	background: var(--success);
+}
+.info {
+	background: var(--info);
+}
+.danger {
+	background: var(--danger);
+}
+.love {
+	background: var(--love);
+}
+.loading {
+	background: #222;
+}

@@ -1,0 +1,23 @@
+:root {
+	--background: #FFF;
+	--shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.05)!important;
+	--radius: 50px;
+	--info: #007BFF;
+	--danger: #DC3545;
+	--success: #28A745;
+	--warning: #FFC107; 
+	--love: #FE787A;
+	--status-color: #222;
+	--status-font: Aron;
+	--status-size: 14px;	
+	--status-transform: uppercase;
+	--message-color: #888;
+	--message-font: Aron;
+	--message-size: 13px;	
+	--message-transform:;
+	--loader-color-1: #222;
+	--loader-color-2: #EEE;
+	--loader-speed: 1s; /* using (s) = second or (ms) = mili second */
+	--line-color-1: #AAA;
+	--line-color-2: #222;
+}

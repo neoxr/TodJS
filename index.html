@@ -1,0 +1,21 @@
+<html>
+	<head>
+	<title> Tod.JS </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="/assets/js/jquery.js"></script>
+	<style>@font-face{font-family:"Aron";src:url(/assets/font/aron.otf)}</style>
+	<link rel="stylesheet" href="/assets/css/demo.css" />
+	<link rel="stylesheet" href="/todjs/css/tod_light.css" />
+	<script src="/todjs/js/tod.js"></script>
+	</head>
+<body>
+	<div class="layer">
+		<h1>Tod.JS</h1>
+		<h2>Beautiful toast notification clean and easy to modified. <br> Get it on <a href="https:/;github.com/neoxr/TodJS">Github.</a></h2>
+			<button class="warning" onclick="tod.warning({ status: 'Warning', message: 'Memori hampir penuh', align: 'topleft'});">Warning</button>
+			<button class="success" onclick="tod.success({ status: 'Success', message: 'Password berhasil diganti', align: 'topright'});">Success</button>
+			<button class="info" onclick="tod.info({ status: 'Info', message: 'Pertama kamu anjing', align: 'topcenter'});">Info</button>
+			<button class="danger" onclick="tod.danger({ status: 'Error', message: 'Password salah', align: 'bottomright' });">Error</button>
+			<button class="love" onclick="tod.love({ status: 'Loved', message: 'Luv u muacch njeng', align: 'bottomcenter' });">Love</button>
+			<button class="loading" onclick="tod.loading({ status: 'Loading . . .', message: 'Harap tunggu sebentar', align: 'topright', line: true });">Loading</button>
+	</div>
